@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.31 16.85">
+  <defs>
+    <radialGradient id="MyGradient" cx="0" cy="1" r="1.1">
+      <stop offset="0%" stop-color="#339296" />
+      <stop offset="100%" stop-color="#704f8a" />
+    </radialGradient>
+  </defs>
+  <style>
+    .cls-1{
+      fill: url(#MyGradient);
+    }
+  </style>
+  <title>Asset 1</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <path class="cls-1" d="M10.18,11.79H4.25l-.72,2a2.7,2.7,0,0,0-.19.86c0,.79.7,1.06,1.92,1.15v1.08H0V15.77c.65-.12,1.13-.24,1.39-.89L6.26,2.09,5.42,0H11L16.9,14.88c.24.6.72.77,1.42.89v1.08h-9V15.77c1.1,0,1.82-.31,1.82-1.13a3,3,0,0,0-.19-.89ZM4.75,10.39H9.62L7.13,4Z"/>
+    </g>
+  </g>
+</svg>
