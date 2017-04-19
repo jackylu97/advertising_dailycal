@@ -197,6 +197,18 @@ hr {
 	text-align: right;
 }
 
+.gradient {
+	background: linear-gradient( 45deg, #ffd13a, #4b9ad0 );
+	color: white;
+	padding: 10px 10px 8px;
+}
+
+.gradient_text{
+	background: -webkit-linear-gradient(45deg, #ffd13a, #4b9ad0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /**** Element-specific ****/
 
 /* Home Page */
@@ -239,10 +251,8 @@ hr {
   height: 600px;
   margin: 80px 0 0;
   /*background-color: #364166;*/
-	background: #fff url("A.svg") no-repeat fixed;
-	/*background: url("A.svg");*/
+	background: linear-gradient( rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4) ), url("A.svg") no-repeat fixed;
   background-size: 650px;
-  background-repeat: no-repeat;
 	background-position: 30% 65%;
   color: #333;
 }
@@ -276,12 +286,13 @@ hr {
 
 .headline {
 	display: inline-block;
-  margin: 50px auto;
-  font-size: 2.4rem;
+  font-size: 1.8rem;
+	font-weight: 600;
 }
 
 .num {
-  font-size: 5rem;
+  font-size: 2.2rem;
+	font-weight: 600;
 }
 
 .num-small {
@@ -294,4 +305,8 @@ hr {
 
 .description{
 	font-size:1.5rem;
+}
+
+.bar_left {
+	border-left: 2px solid #ccc;
 }
