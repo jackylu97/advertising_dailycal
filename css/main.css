@@ -2,35 +2,35 @@
 
 @font-face {
 	font-family: Benton Sans;
-	src: url(./benton_sans/BentonSans-Book.otf);
+	src: url(../benton_sans/BentonSans-Book.otf);
 	font-style: normal;
 	font-weight: 400
 }
 
 @font-face {
 	font-family: Benton Sans;
-	src: url(./benton_sans/BentonSans-Black.otf);
+	src: url(../benton_sans/BentonSans-Black.otf);
 	font-style: normal;
 	font-weight: 800
 }
 
 @font-face {
 	font-family: Benton Sans;
-	src: url(./benton_sans/BentonSans-Medium.otf);
+	src: url(../benton_sans/BentonSans-Medium.otf);
 	font-style: normal;
 	font-weight: 600
 }
 
 @font-face {
 	font-family: Tiempos;
-	src: url(./tiempos/Tiempos Headline-Regular.otf);
+	src: url(../tiempos/Tiempos Headline-Regular.otf);
 	font-style: normal;
 	font-weight: 400
 }
 
 @font-face {
 	font-family: Plantin;
-	src: url(./plantin/PlantinMTPro-Regular.otf);
+	src: url(../plantin/PlantinMTPro-Regular.otf);
 	font-style: normal;
 	font-weight: 400
 }
@@ -251,7 +251,7 @@ hr {
   height: 600px;
   margin: 80px 0 0;
   /*background-color: #364166;*/
-	background: linear-gradient( rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4) ), url("A.svg") no-repeat fixed;
+	background: linear-gradient( rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4) ), url("../A.svg") no-repeat fixed;
   background-size: 650px;
 	background-position: 30% 65%;
   color: #333;
