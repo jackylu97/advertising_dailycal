@@ -207,6 +207,7 @@ hr {
 	background: -webkit-linear-gradient(45deg, #ffd13a, #4b9ad0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+	letter-spacing: 1px;
 }
 
 /**** Element-specific ****/
@@ -224,8 +225,9 @@ hr {
   background-size: cover;
   padding: 10px 0;
   text-align: center;
-	border: 2px solid #eee;
+	border-bottom: 2px solid #eee;
 	background-color: white;
+	z-index: 10
 }
 
 #navbar > .section {
@@ -268,7 +270,7 @@ hr {
   margin-top: 140px;
 	text-transform: uppercase;
 	font-weight:600;
-	letter-spacing: 2px;
+	letter-spacing: 3px;
 }
 
 .header-content {
@@ -279,8 +281,7 @@ hr {
 
 #downArrow {
   display: block;
-  width: 5%;
-  max-width: 40px;
+  width: 30px;
 	margin:auto;
 }
 
