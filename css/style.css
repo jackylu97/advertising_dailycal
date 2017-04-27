@@ -277,6 +277,7 @@ hr {
   display: block;
   width: 30px;
 	margin:auto;
+	cursor:pointer;
 }
 
 .headline {
@@ -319,4 +320,13 @@ hr {
 
 .bar_left {
 	border-left: 2px solid #ccc;
+}
+
+.pop_graphic {
+	height: 150px;
+}
+
+.media {
+	height:50px;
+	margin-bottom:20px
 }
