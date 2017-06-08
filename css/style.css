@@ -220,7 +220,8 @@ hr {
   text-align: center;
 	border-bottom: 2px solid #eee;
 	background-color: white;
-	z-index: 10
+	z-index: 10;
+	height:90px;
 }
 
 #navbar > .section {
@@ -301,6 +302,11 @@ hr {
 	color: #4b9ad0;
 }
 
+.clip-right {
+	display:inline-block;
+	padding-right:30px;
+}
+
 .num {
   font-size: 2.2rem;
 	font-weight: 600;
@@ -320,6 +326,7 @@ hr {
 
 .bar_left {
 	border-left: 2px solid #ccc;
+	padding-left: 10%;
 }
 
 .pop_graphic {
@@ -329,4 +336,38 @@ hr {
 .media {
 	height:50px;
 	margin-bottom:20px
+}
+
+#online_toggle, #print_toggle {
+	cursor:pointer;
+	padding: 20px;
+	margin: 20px;
+}
+
+.selected {
+	background: linear-gradient( 45deg, #ffd13a, #4b9ad0 );
+	color: white;
+}
+
+.hide {
+	display:none;
+}
+
+.def_width {
+	width:80%;
+	margin:auto;
+}
+
+.toggle {
+	letter-spacing: 4px;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+#options_tabs {
+	padding: 70px 0 0 0;
+}
+
+.item {
+	padding-top:100px;
 }
